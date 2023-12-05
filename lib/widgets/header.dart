@@ -5,23 +5,33 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 87,
+      width: MediaQuery.of(context).size.width - 50,
       color: Colors.white,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(
-            'Home',
-            style: TextStyle(color: Colors.blue),
+          TextButton(
+            onPressed: () {},
+            child: Text(
+              '홈',
+              style: TextStyle(color: Colors.blue),
+            ),
           ),
           Row(
             children: [
-              Text(
-                'Sign In',
-                style: TextStyle(color: Colors.black),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  '로그인',
+                  style: TextStyle(color: Colors.black),
+                ),
               ),
-              Text(
-                'Sign Up',
-                style: TextStyle(color: Colors.blue),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  '회원가입',
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             ],
           )

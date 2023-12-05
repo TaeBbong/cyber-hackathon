@@ -11,6 +11,9 @@ dependencies:
     sdk: flutter
   http: ^1.1.0
   get:
+  flutter_svg:
+  file_picker:
+  url_launcher:
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +22,18 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.ttf
+    - family: PretendardBold
+      fonts:
+        - asset: assets/fonts/Pretendard-SemiBold.ttf
+    - family: NanumMyeongjo
+      fonts:
+        - asset: assets/fonts/NanumMyeongjo.ttf
