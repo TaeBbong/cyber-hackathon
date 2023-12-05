@@ -122,7 +122,7 @@ class IndexPage extends StatelessWidget {
                       String fileName = result.files.first.name;
                       Uint8List fileBytes = result.files.first.bytes!;
                       debugPrint(fileName);
-                      // upload to server
+                      // TODO: upload to server
                     }
                   },
                   child: Text('파일 선택하기'), // TODO: isFile ? '검사 시작' : '파일 선택하기'
