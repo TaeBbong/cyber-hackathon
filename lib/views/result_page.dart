@@ -1,10 +1,7 @@
-import 'dart:typed_data';
-
 import 'package:ai_hackathon/widgets/footer.dart';
 import 'package:ai_hackathon/widgets/header.dart';
-import 'package:file_picker/file_picker.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class ResultPage extends StatelessWidget {
   @override
