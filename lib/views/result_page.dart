@@ -38,7 +38,7 @@ class ResultPage extends StatelessWidget {
             // DataSet
             Container(
               width: 600,
-              height: 500,
+              height: 400,
               color: Colors.white,
               child: Row(
                 children: [
